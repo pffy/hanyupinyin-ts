@@ -25,11 +25,7 @@ export class HanyuPinyin {
       this.text = this.text.replace((new RegExp(h, 'g')), ' ' + idxhp.hpdx[h] + ' ');
     }
   
-    this.text = finish(this.text);
-  }
-  
-  private finish(str) {
-    return str.replace((new RegExp('[^\\S\\n]{2,}', 'g')), ' ').trim();
+    this.text = this.text.replace((new RegExp('[^\\S\\n]{2,}', 'g')), ' ').trim();
   }
   
   toString(): string {
