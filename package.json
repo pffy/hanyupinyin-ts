@@ -1,0 +1,26 @@
+{
+  "name": "obj-ts",
+  "version": "0.1.0",
+  "description": "generic TypeScript object",
+  "main": "./obj.js",
+  "scripts": {
+    "build": "tsc *.ts",
+    "pretest": "npm run build",
+    "test": "node tests/test1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pffy/obj-ts.git"
+  },
+  "keywords": [
+    "template",
+    "typescript",
+    "object"
+  ],
+  "author": "The Pffy Authors (https://pffy.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pffy/obj-ts/issues"
+  },
+  "homepage": "https://github.com/pffy/obj-ts#readme"
+}
