@@ -25,5 +25,8 @@
   "homepage": "https://github.com/pffy/hanyupinyin-ts#readme",
   "dependencies": {
     "hpdx-ts": "git+https://github.com/pffy/hpdx-ts.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
   }
 }
