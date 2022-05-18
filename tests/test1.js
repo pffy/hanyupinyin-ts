@@ -10,5 +10,5 @@ const { HanyuPinyin } = require('../.');
 
 var hp = new HanyuPinyin();
 const hello = '你好';
-console.log('chinese: %s' + hello);
+console.log('chinese: %s', hello);
 console.log('pinyin: %s', hp.setInput(hello));
